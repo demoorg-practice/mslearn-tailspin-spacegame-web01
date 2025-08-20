@@ -1,7 +1,10 @@
 on:
   push:
     branches:
-      - master 
+      - master
+    tags:
+      - v2
+      - v1*   
   label:
     types: 
       - created
