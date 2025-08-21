@@ -2,6 +2,9 @@ on:
   push:
     branches:
       - master
+  label:
+    types: 
+      - created    
 
 
 jobs:
