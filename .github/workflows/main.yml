@@ -2,12 +2,7 @@ on:
   push:
     branches:
       - master
-    tags:
-      - v2
-      - v1*   
-  label:
-    types: 
-      - created
+
 
 jobs:
   print_hello:       
