@@ -2,9 +2,10 @@ on:
   push:
     branches:
       - master
-  label:
-    types: 
-      - created    
+    tags:
+     - v2
+     - v3      
+
 
 
 jobs:
